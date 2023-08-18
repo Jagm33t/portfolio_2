@@ -1,53 +1,56 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { FaToolbox } from 'react-icons/fa';
+import { FiServer } from 'react-icons/fi';
+import { FaGraduationCap } from 'react-icons/fa'
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Frontend Technologies",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
+    skills: "HTML, CSS, JavaScript, React, Sass, Figma , JSON , Web APIs",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
+    name: "Backend Technologies",
+    icon: FiServer,
     bg: "#EEC048",
+    skills: "Node.js, Express.js, MySQL ",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
+    name: "General Skills and Tools",
+    icon: FaToolbox,
     bg: "#F26440",
+    skills: "Git , GitHub , Jira , Agile Development , Visual Studio Code , User Authentication ",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "👋 Hey there, I'm Jagmeet, a passionate web developer with a flair for crafting user-friendly and responsive web applications. My journey into the world of web development was a transition fueled by curiosity and a drive for creativity. 🚀 With a keen eye for detail, I'm dedicated to merging aesthetics with functionality to bring digital experiences to life.",
+  "💻 Armed with strong project management, problem-solving, and collaboration skills, I'm confidently stepping into this dynamic field. I'm excited to contribute meaningfully to the industry, one pixel at a time!"
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "",
+    tenure: "Jul 2023",
+    role: "Full Stack Web Developer",
+    icon: HiOutlineDesktopComputer,
+    detail: "As a passionate developer, I'm  crafting my personal projects into digital masterpieces.Vancouver, BC ",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "",
+    tenure: "Aprl 2023 - Jun 2023",
+    role: "Diploma in Web Development ",
+    icon: FaGraduationCap,
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Brainstation, Vancouver, BC",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+  
+    tenure: "Jan 2016 - April 2018",
+    role: "Diploma of General Studies in Business",
+    icon: FaGraduationCap,
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    "Kwantlen Polytechnic University, Surrey, BC",
   },
 ];
 
