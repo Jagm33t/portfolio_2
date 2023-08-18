@@ -8,9 +8,7 @@ import {zoomIn, fadeIn, staggerContainer, staggerChildren, textVariant2} from '.
 const Education = () => {
 
 
-  const openPDFInNewTab = () => {
-    window.open(diploma, '_blank');
-  };
+ 
   return (
    <>
   <motion.section 
@@ -49,7 +47,7 @@ const Education = () => {
          </motion.div>
          <div>
         <a className={css.resumebtn} href="../../public/jagmeet_singh_resume.pdf" download>Download Resume</a>
-        <a className={css.resumebtn} onClick={openPDFInNewTab} href="../../public/diploma.pdf" >
+        <a className={css.resumebtn}  href="../../public/diploma.pdf" >
     <span className="icon-container"><FiFileText size={18} style={{ marginRight: '8px' }} /></span>
    Open  Diploma
   </a>
