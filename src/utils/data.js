@@ -31,14 +31,14 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "",
-    tenure: "Jul 2023",
+    tenure: "Jul 2023 - current",
     role: "Full Stack Web Developer",
     icon: HiOutlineDesktopComputer,
     detail: "As a passionate developer, I'm  crafting my personal projects into digital masterpieces.Vancouver, BC ",
   },
   {
     place: "",
-    tenure: "Aprl 2023 - Jun 2023",
+    tenure: "Apr 2023 - Jun 2023",
     role: "Diploma in Web Development ",
     icon: FaGraduationCap,
     detail:
