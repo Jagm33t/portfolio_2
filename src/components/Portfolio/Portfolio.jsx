@@ -48,6 +48,7 @@ const Portfolio = () => {
 </a>
     </div>
     <div >
+    <a href="https://jagmeet-movielover.netlify.app/" target="_blank" rel="noopener noreferrer">
     <motion.img 
     style={{
         width: "20rem",
@@ -59,12 +60,14 @@ const Portfolio = () => {
     }}
          variants={fadeIn("up", "tween", .6, .6)} 
          src="./movielover.png" alt="project1" />
+         </a>
         <p >MoviesLover</p>
         <a href="https://github.com/Jagm33t/Hackathon" className={css.githubLink} target="_blank" rel="noopener noreferrer">
         <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} />
 </a>
     </div>
    <div>
+   <a href="https://jagmeets-amazonshoppingpage.netlify.app/" target="_blank" rel="noopener noreferrer">
    <motion.img 
     style={{
       width: "20rem",
@@ -77,6 +80,7 @@ const Portfolio = () => {
     variants={fadeIn("up", "tween", .7, .6)}
      src="./amazonpage.png"
       alt="project2" />
+      </a>
       <p >Shopping Page</p>
       <a href="https://github.com/Jagm33t/Shopping-page" className={css.githubLink} target="_blank" rel="noopener noreferrer">
       <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} /></a>

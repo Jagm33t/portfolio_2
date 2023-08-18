@@ -5,16 +5,28 @@ import Experties from './components/Experties/Experties';
 import Education from "./components/Education/Education";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from './components/Footer/Footer';
+import React, { useState, useEffect } from 'react';
 
 const App = () => {
-  return <div className={`bg-primary ${css.container}`}>
-<Header/>
-<Hero/>
-<Experties/>
-<Portfolio/>
-<Education/>
-<Footer/>
-  </div>
-};
+  
+
+
+  return (
+   
+    <>
+     <div className={`bg-primary ${css.container}`}>
+    <Header/>
+    <Hero/>
+    <Experties/>
+    <Portfolio/>
+    <Education/>
+    <Footer/>
+      </div>
+    </>
+   
+   )}
+     
+
+
 
 export default App;
