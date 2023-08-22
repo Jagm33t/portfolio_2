@@ -5,11 +5,15 @@ import {motion} from 'framer-motion'
 import { FiFileText } from 'react-icons/fi';
 import {zoomIn, fadeIn, staggerContainer, staggerChildren, textVariant2} from '../../utils/motion'
 import diploma from "../../../public/diploma.pdf";
+import resume from "../../../public/jagmeet_singh_resume.pdf";
 
 const Education = () => {
 
   const openPDFInNewTab = () => {
     window.open(diploma, '_blank');
+  };
+  const openResumeInNewTab = () => {
+    window.open(resume, '_blank');
   };
  
   return (
@@ -49,7 +53,12 @@ const Education = () => {
          <div><div className={css.circle} style={{background: "#EEC048" }}></div></div>
          </motion.div>
          <div>
-        <a className={css.resumebtn} href="../../public/jagmeet_singh_resume.pdf" download>Download Resume</a>
+         <a onClick={openResumeInNewTab}  >
+         <span className={css.diploma} ><FiFileText size={18} style={{ marginRight: '8px' , cursor:"pointer" }} />
+         Resume
+           </span>
+         
+        </a>
       </div>
       <div>
       <a  onClick={openPDFInNewTab} >
