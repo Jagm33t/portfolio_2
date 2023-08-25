@@ -44,7 +44,8 @@ const Portfolio = () => {
          src="./showCase1.png" alt="project1" />
         <p >CardMute</p>
         <a href="https://github.com/Jagm33t/Capstone-client" className={css.githubLink} target="_blank" rel="noopener noreferrer">
-        <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} />
+        <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+        
 </a>
     </div>
     <div >
@@ -63,8 +64,13 @@ const Portfolio = () => {
          </a>
         <p >MoviesLover</p>
         <a href="https://github.com/Jagm33t/Hackathon" className={css.githubLink} target="_blank" rel="noopener noreferrer">
-        <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} />
+        <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+      
 </a>
+<a href="https://jagmeet-movielover.netlify.app/" target="_blank" rel="noopener noreferrer">
+<button className={css.deploybtn}>Deployment Link</button>
+</a>
+
     </div>
    <div>
    <a href="https://jagmeets-amazonshoppingpage.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -83,10 +89,17 @@ const Portfolio = () => {
       </a>
       <p >Shopping Page</p>
       <a href="https://github.com/Jagm33t/Shopping-page" className={css.githubLink} target="_blank" rel="noopener noreferrer">
-      <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} /></a>
+      <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+
+      </a>
+      <a href="https://jagmeets-amazonshoppingpage.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <button className={css.deploybtn}>Deployment Link</button>
+      </a>
+      
    </div>
    
             <div>
+            <a href="https://brainflix-platform.netlify.app/" target="_blank" rel="noopener noreferrer">
             <motion.img
             style={{
               width: "20rem",
@@ -98,9 +111,15 @@ const Portfolio = () => {
           }}
             variants={fadeIn("right", "tween", .9, .6)} src="./brainflixscreen.png" alt="project3"
             />
+            </a>
             <p >BrainFlix</p>
-      <a href="https://github.com/Jagm33t/Shopping-page" className={css.githubLink} target="_blank" rel="noopener noreferrer">
-      <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} /></a>
+
+      <a href="https://github.com/Jagm33t/BrainFlix" className={css.githubLink} target="_blank" rel="noopener noreferrer">
+      <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+      </a>
+      <a href="https://brainflix-platform.netlify.app/" target="_blank" rel="noopener noreferrer">      <button className={css.deploybtn}>Deployment Link</button>
+      </a>
+
             </div>
             
 
@@ -117,7 +136,8 @@ const Portfolio = () => {
             variants={fadeIn("right", "tween", .10, .6)} src="./screenshotsshow.png" alt="project4" />
              <p >BandSite</p>
       <a href="https://github.com/Jagm33t/https://github.com/Jagm33t/BandSite" className={css.githubLink} target="_blank" rel="noopener noreferrer">
-      <FaGithub size={28} style={{ color: 'black', cursor:'pointer' }} /></a>
+      <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+      </a>
 
             </div>
            
