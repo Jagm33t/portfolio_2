@@ -30,6 +30,24 @@ const Portfolio = () => {
 
 
         <div className={`flexCenter ${css.showCase}`}>
+        <div >
+    <motion.img 
+    style={{
+        width: "20rem",
+        borderRadius: "20px", 
+        maxWidth: "25rem",
+        maxHeight: "18rem",
+        boxShadow: "0px 21px 13px rgba(0, 0, 0, 0.13)", 
+        cursor: "pointer"
+    }}
+         variants={fadeIn("left", "tween", .7, .6)} 
+         src="./travel-pic.png" alt="project1" />
+        <p >Travel Choice</p>
+        <a href="https://github.com/Jagm33t/travel_choice-next.js" className={css.githubLink} target="_blank" rel="noopener noreferrer">
+        <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+        
+</a>
+    </div>
     <div >
     <motion.img 
     style={{
@@ -60,7 +78,7 @@ const Portfolio = () => {
         cursor: "pointer"
     }}
          variants={fadeIn("up", "tween", .6, .6)} 
-         src="./movielover.png" alt="project1" />
+         src="./movielover.png" alt="project2" />
          </a>
         <p >MoviesLover</p>
         <a href="https://github.com/Jagm33t/Hackathon" className={css.githubLink} target="_blank" rel="noopener noreferrer">
