@@ -86,7 +86,7 @@ const Portfolio = () => {
       
 </a>
 <a href="https://jagmeet-movielover.netlify.app/" target="_blank" rel="noopener noreferrer">
-<button className={css.deploybtn}>Deployment Link</button>
+<button className={css.deploybtn}>Live</button>
 </a>
 
     </div>
@@ -111,7 +111,7 @@ const Portfolio = () => {
 
       </a>
       <a href="https://jagmeets-amazonshoppingpage.netlify.app/" target="_blank" rel="noopener noreferrer">
-      <button className={css.deploybtn}>Deployment Link</button>
+      <button className={css.deploybtn}>Live</button>
       </a>
       
    </div>
@@ -135,13 +135,15 @@ const Portfolio = () => {
       <a href="https://github.com/Jagm33t/BrainFlix" className={css.githubLink} target="_blank" rel="noopener noreferrer">
       <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
       </a>
-      <a href="https://brainflix-platform.netlify.app/" target="_blank" rel="noopener noreferrer">      <button className={css.deploybtn}>Deployment Link</button>
+      <a href="https://brainflix-platform.netlify.app/" target="_blank" rel="noopener noreferrer">      <button className={css.deploybtn}>Live</button>
       </a>
 
             </div>
             
 
             <div>
+            
+            <a href="https://jagmeets-bandsite.netlify.app/" target="_blank" rel="noopener noreferrer">
             <motion.img 
              style={{
               width: "20rem",
@@ -152,11 +154,13 @@ const Portfolio = () => {
               cursor: "pointer"
           }}
             variants={fadeIn("right", "tween", .10, .6)} src="./screenshotsshow.png" alt="project4" />
+            </a>
              <p >BandSite</p>
       <a href="https://github.com/Jagm33t/https://github.com/Jagm33t/BandSite" className={css.githubLink} target="_blank" rel="noopener noreferrer">
       <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
       </a>
-
+      <a href="https://jagmeets-bandsite.netlify.app/" target="_blank" rel="noopener noreferrer">      <button className={css.deploybtn}>Live</button>
+      </a>
             </div>
            
         </div>
