@@ -24,8 +24,8 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "👋 Hey there, I'm Jagmeet, a passionate web developer with a flair for crafting user-friendly and responsive web applications. My journey into the world of web development was a transition fueled by curiosity and a drive for creativity. 🚀 With a keen eye for detail, I'm dedicated to merging aesthetics with functionality to bring digital experiences to life.",
-  "💻 Armed with strong project management, problem-solving, and collaboration skills, I'm confidently stepping into this dynamic field. I'm excited to contribute meaningfully to the industry, one pixel at a time!"
+  "👋 Hey there, I'm Jagmeet, a passionate web developer. My journey into the world of web development has been fueled by a genuine empathy for users and a talent for solving complex problems🧩. I'm excited about coding, and my curiosity and eagerness to learn drive me to continually enhance my skills and explore new opportunities🚀.",
+  "As I start on this new career path in web development, I'm eager to use my skills and creativity to craft user-friendly websites and applications that offer innovative solutions and enhance user experiences.🌐💡"
 ];
 
 export const workExp = [
