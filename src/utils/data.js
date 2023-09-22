@@ -31,7 +31,7 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "",
-    tenure: "Jul 2023 - current",
+    tenure: "Jul 2023 -  current",
     role: "Full Stack Web Developer",
     icon: HiOutlineDesktopComputer,
     detail: "As a passionate developer, I'm  crafting my personal projects into digital masterpieces.Vancouver, BC ",
