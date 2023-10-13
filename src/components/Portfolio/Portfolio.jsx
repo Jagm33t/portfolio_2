@@ -67,6 +67,24 @@ const Portfolio = () => {
 </a>
     </div>
     <div >
+    <motion.img 
+    style={{
+        width: "20rem",
+        borderRadius: "20px", 
+        maxWidth: "25rem",
+        maxHeight: "18rem",
+        boxShadow: "0px 21px 13px rgba(0, 0, 0, 0.13)", 
+        cursor: "pointer"
+    }}
+         variants={fadeIn("left", "tween", .7, .6)} 
+         src="./instock-screen.png" alt="instock" />
+        <p >Instock</p>
+        <a href="https://github.com/Jagm33t/instock-front" className={css.githubLink} target="_blank" rel="noopener noreferrer">
+        <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+        
+</a>
+    </div>
+    <div >
     <a href="https://jagmeet-movielover.netlify.app/" target="_blank" rel="noopener noreferrer">
     <motion.img 
     style={{
