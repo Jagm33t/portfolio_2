@@ -66,6 +66,10 @@ const Portfolio = () => {
         <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
         
 </a>
+<a href="https://travelchoice.netlify.app/" target="_blank" rel="noopener noreferrer">     
+       <button className={css.deploybtn}>Live</button>
+      </a>
+
     </div>
     <div >
     <motion.img 
