@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import { FiFileText } from 'react-icons/fi';
 import {zoomIn, fadeIn, staggerContainer, staggerChildren, textVariant2} from '../../utils/motion'
 import diploma from "../../../public/diploma.pdf";
-import resume from "../../../public/jagmeet_singh_resume.pdf";
+import resume from "../../../public/JAGMEET_SINGH_RESUME.pdf";
 
 const Education = () => {
 
