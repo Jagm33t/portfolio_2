@@ -3,9 +3,9 @@ import { workExp } from "../../utils/data";
 import css from "./Education.module.scss";
 import {motion} from 'framer-motion'
 import { FiFileText } from 'react-icons/fi';
-import {zoomIn, fadeIn, staggerContainer, staggerChildren, textVariant2} from '../../utils/motion'
+import {zoomIn, fadeIn, staggerChildren, textVariant2} from '../../utils/motion'
 import diploma from "../../../public/diploma.pdf";
-import resume from "../../../public/JAGMEET_SINGH_RESUME.pdf";
+import resume from "../../assets/JAGMEET_SINGH_RESUME.pdf";
 
 const Education = () => {
 
