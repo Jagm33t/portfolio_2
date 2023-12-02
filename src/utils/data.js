@@ -7,19 +7,19 @@ export const projectExperience = [
     name: "Frontend Technologies",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
-    skills: "HTML, CSS, JavaScript, React, Sass, Figma , JSON , Web APIs",
+    skills: "HTML, CSS, JavaScript, React, TypeScript, Sass, Figma , JSON , Web APIs",
   },
   {
     name: "Backend Technologies",
     icon: FiServer,
     bg: "#EEC048",
-    skills: "Node.js, Express.js, MySQL ",
+    skills: "Node.js, Express.js, MySQL, MongoDB ",
   },
   {
     name: "General Skills and Tools",
     icon: FaToolbox,
     bg: "#F26440",
-    skills: "Git , GitHub , Jira , Agile Development , Visual Studio Code , User Authentication ",
+    skills: "Git , GitHub , Jira , Agile Development , Visual Studio Code , User Authentication, JWT Token, Deployment - AWS, Render, Netlify, Software Design Patterns, Data movement/migration/upload, Jest Testing, Google Analytics. ",
   },
 ];
 
