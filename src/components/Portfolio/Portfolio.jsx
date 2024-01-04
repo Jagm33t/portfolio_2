@@ -32,6 +32,28 @@ const Portfolio = () => {
         <div className={`flexCenter ${css.showCase}`}>
         <div>
             
+            <a href="https://state-feu2.onrender.com/" target="_blank" rel="noopener noreferrer">
+            <motion.img 
+             style={{
+              width: "20rem",
+              borderRadius: "16px", 
+              maxWidth: "25rem",
+              maxHeight: "18rem",
+              boxShadow: "0px 21px 13px rgba(0, 0, 0, 0.13)", 
+              cursor: "pointer"
+          }}
+            variants={fadeIn("right", "tween", .10, .6)} src="./rental.png" alt="Rental2Review" />
+            </a>
+            <p style={{ marginBottom: '8px' }}>Rental2Review</p>
+      <a href="https://state-feu2.onrender.com/" target="_blank" rel="noopener noreferrer">     
+       <button className={css.deploybtn}>Live</button>
+      </a>
+            </div>
+
+
+        <div>
+
+            
             <a href="https://calcuttaconstructions.ca/" target="_blank" rel="noopener noreferrer">
             <motion.img 
              style={{
@@ -49,6 +71,7 @@ const Portfolio = () => {
        <button className={css.deploybtn}>Live</button>
       </a>
             </div>
+            
         <div >
     <motion.img 
     style={{
