@@ -62,12 +62,8 @@ const handlePhoneClick = () =>{
           <a href="https://github.com/Jagm33t" target="_blank" rel="noopener noreferrer">
           <span className="icon-container"><FaGithub size={38} style={{ color: 'black' }} /></span>
           </a>
-          {showPhone && (
-        <div className="email-section">
-          <p className="email-address">+1(604)889-6982</p>
-        </div>
-      )}
-                <span ><FaPhone size={28} style={{ color: 'black', cursor: 'pointer' }} onClick={handlePhoneClick} /></span>
+        
+
                 
           <p className={css.copyright}  >copyright © Jagmeet Singh 2023</p>
           </ul>
