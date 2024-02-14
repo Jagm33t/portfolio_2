@@ -32,7 +32,7 @@ const Portfolio = () => {
         <div className={`flexCenter ${css.showCase}`}>
         <div>
             
-            <a href="https://state-feu2.onrender.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Jagm33t/rent2review" target="_blank" rel="noopener noreferrer">
             <motion.img 
              style={{
               width: "20rem",
@@ -45,9 +45,10 @@ const Portfolio = () => {
             variants={fadeIn("right", "tween", .10, .6)} src="./rental.png" alt="Rental2Review" />
             </a>
             <p style={{ marginBottom: '8px' }}>Rental2Review</p>
-      <a href="https://state-feu2.onrender.com/" target="_blank" rel="noopener noreferrer">     
-       <button className={css.deploybtn}>Live</button>
-      </a>
+            <a href="https://github.com/Jagm33t/rent2review" className={css.githubLink} target="_blank" rel="noopener noreferrer">
+        <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+        
+</a>
             </div>
 
 
