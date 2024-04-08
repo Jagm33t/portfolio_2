@@ -13,13 +13,13 @@ export const projectExperience = [
     name: "Backend Technologies",
     icon: FiServer,
     bg: "#EEC048",
-    skills: "Node.js, Express.js, MySQL, MongoDB ",
+    skills: "Node.js, Express.js, MySQL, MongoDB, Authentication , Authorization, Jwt Token ",
   },
   {
     name: "General Skills and Tools",
     icon: FaToolbox,
     bg: "#F26440",
-    skills: "Git , GitHub , Jira , Agile Development , Visual Studio Code , User Authentication, JWT Token, Deployment - AWS, Render, Netlify, Software Design Patterns, Data movement/migration/upload, Jest Testing, Google Analytics. ",
+    skills: "Git , GitHub, Microservices,  Open Ai integration , Jira, Agile Development , Visual Studio Code , User Authentication, JWT Token, Deployment - AWS, Azur, Render, Netlify, Software Design Patterns, Data movement/migration/upload, Jest Testing, Google Analytics, Docker, Kubernetes. ",
   },
 ];
 
@@ -31,10 +31,17 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "",
-    tenure: "Jul 2023 -  current",
-    role: "Full Stack Web Developer",
+    tenure: "Dec 2023 -  current",
+    role: "Full Stack Developer",
     icon: HiOutlineDesktopComputer,
-    detail: "As a passionate developer, I'm  crafting my personal projects into digital masterpieces.Vancouver, BC ",
+    detail: "As a Full Stack developer,working at Oxmaint   ",
+  },
+  {
+    place: "",
+    tenure: "Jul 2023 -  Nov 2023",
+    role: "Web Developer(freelance)",
+    icon: HiOutlineDesktopComputer,
+    detail: "As a passionate developer, I turn clients' ideas into fully functional websites. ",
   },
   {
     place: "",
