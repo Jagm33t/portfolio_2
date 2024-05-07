@@ -32,6 +32,28 @@ const Portfolio = () => {
         <div className={`flexCenter ${css.showCase}`}>
         <div>
             
+            <a href="https://master--jocular-empanada-a916f1.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <motion.img 
+             style={{
+              width: "20rem",
+              borderRadius: "16px", 
+              maxWidth: "25rem",
+              maxHeight: "18rem",
+              boxShadow: "0px 21px 13px rgba(0, 0, 0, 0.13)", 
+              cursor: "pointer"
+          }}
+            variants={fadeIn("right", "tween", .10, .6)} src="./rentright.png" alt="Rental2Review" />
+            </a>
+            <p style={{ marginBottom: '8px' }}>RentalRight</p>
+            <a href="https://github.com/Jagm33t/RentRight" className={css.githubLink} target="_blank" rel="noopener noreferrer">
+        <FaGithub size={28} style={{ color: 'black', cursor:'pointer',marginTop:'0.5rem' }} />
+        
+</a><a href="https://master--jocular-empanada-a916f1.netlify.app/" target="_blank" rel="noopener noreferrer">     
+       <button className={css.deploybtn}>Live</button>
+      </a>
+            </div>
+        <div>
+            
             <a href="https://github.com/Jagm33t/rent2review" target="_blank" rel="noopener noreferrer">
             <motion.img 
              style={{
